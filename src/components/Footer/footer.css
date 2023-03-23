@@ -1,0 +1,33 @@
+footer {
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Phenomicon';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 5vw;
+}
+
+.links {
+    display: flex;
+    gap: 3px;
+    margin-right: 13vw;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
